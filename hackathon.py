@@ -34,3 +34,17 @@ for i in range(LastTenDays):
 '''
 plt.plot(dates, closes)
 plt.show()
+
+
+
+age = int(input('What is your age?'))
+if age <= 29:
+    print('You fit into the Aggresive Investor category')
+elif age < 55:
+    print('You fit into the Moderate Investor category')
+else:
+    print('You fit into the Conservative Insvestor category')
+
+
+    
+
